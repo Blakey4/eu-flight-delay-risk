@@ -1,7 +1,19 @@
+# Secrets
 .env
 
-# Because of terms of Aviation Edge API, the dataset cannot be shared.
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (Aviation Edge license restriction)
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Outputs
+outputs/figures/*
+!outputs/figures/.gitkeep
