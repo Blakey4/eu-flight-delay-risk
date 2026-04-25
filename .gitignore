@@ -1,0 +1,7 @@
+.env
+
+# Because of terms of Aviation Edge API, the dataset cannot be shared.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
